@@ -31,4 +31,13 @@ public class CalcTest {
 
         assertEquals(0, result);
     }
+
+    @Test
+    public void divideTwoByTwo() {
+        Calc calc = new Calc();
+
+        int result = calc.divide(2, 2);
+
+        assertEquals(1, result);
+    }
 }
